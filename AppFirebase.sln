@@ -1,0 +1,35 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31402.337
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppFirebase.Android", "AppFirebase\AppFirebase.Android\AppFirebase.Android.csproj", "{55D7B3FD-A502-4779-9B0E-A5608FBBA8CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AppFirebase", "AppFirebase\AppFirebase\AppFirebase.csproj", "{5B480261-6A75-424E-A21B-649E275A15B7}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{55D7B3FD-A502-4779-9B0E-A5608FBBA8CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{55D7B3FD-A502-4779-9B0E-A5608FBBA8CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{55D7B3FD-A502-4779-9B0E-A5608FBBA8CF}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{55D7B3FD-A502-4779-9B0E-A5608FBBA8CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{55D7B3FD-A502-4779-9B0E-A5608FBBA8CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{55D7B3FD-A502-4779-9B0E-A5608FBBA8CF}.Release|Any CPU.Deploy.0 = Release|Any CPU
+		{5B480261-6A75-424E-A21B-649E275A15B7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5B480261-6A75-424E-A21B-649E275A15B7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5B480261-6A75-424E-A21B-649E275A15B7}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{5B480261-6A75-424E-A21B-649E275A15B7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5B480261-6A75-424E-A21B-649E275A15B7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5B480261-6A75-424E-A21B-649E275A15B7}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {21374317-55EA-4616-A2FE-F3704EA3845C}
+	EndGlobalSection
+EndGlobal
