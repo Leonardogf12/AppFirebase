@@ -1,0 +1,73 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml" 
+             xmlns:vm="clr-namespace:AppFirebase.ViewModels"
+             x:Class="AppFirebase.Views.LoginView"
+             NavigationPage.HasNavigationBar="False"
+             >
+
+
+    <ContentPage.BindingContext>
+        <vm:LoginViewModel/>
+    </ContentPage.BindingContext>
+
+
+    <Grid Padding="10" VerticalOptions="Center">
+        <Grid.RowDefinitions>
+            <RowDefinition Height="Auto"/>
+            <RowDefinition Height="*"/>
+        </Grid.RowDefinitions>
+
+        <StackLayout Grid.Row="0" VerticalOptions="Center">
+            <Image Source="login"
+                   WidthRequest="150" HeightRequest="150"
+                   />
+            <Label Text="Login" 
+                   TextColor="Black" 
+                   FontSize="30"
+                   FontAttributes="Bold"
+                   HorizontalOptions="Center"
+                   />
+        </StackLayout>
+        
+        <StackLayout Grid.Row="1" Spacing="5">
+            
+            <Entry Placeholder="Nome do usuario(a)" Text="{Binding Username}"/>
+            <Entry Placeholder="Senha" Text="{Binding Password}" IsPassword="True"/>
+            
+            <Button x:Name="btnLogin"
+                    Text="Login" 
+                    HorizontalOptions="Center" 
+                    BackgroundColor="Black" 
+                    TextColor="White" 
+                    CornerRadius="5"
+                    HeightRequest="40"
+                    WidthRequest="300"
+                    Command="{Binding LoginCommand}"
+                    />
+            <Label Text="Novo?" 
+                   Margin="0,20,0,0"
+                   HorizontalOptions="Center" 
+                   TextColor="Black" 
+                   FontAttributes="Bold"
+                   />
+            <Button x:Name="btnRegistrar"                    
+                    Text="Registrar" 
+                    HorizontalOptions="Center" 
+                    BackgroundColor="Black" 
+                    TextColor="White" 
+                    CornerRadius="5"
+                    HeightRequest="35"
+                    FontSize="10"
+                    Command="{Binding RegistroCommand}"
+                    />
+
+
+        </StackLayout>
+        
+
+
+
+
+    </Grid>
+</ContentPage>
